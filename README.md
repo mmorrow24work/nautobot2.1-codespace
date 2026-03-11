@@ -1,8 +1,46 @@
+# GitHub Codespaces
+
+GitHub Codespaces provides instant cloud development environments directly from GitHub repositories.
+
+## Performance concerns
+
+In my experiences GitHub Codespaces are a simple way to spin up an a service, but they can be a bit slow to start which from a user perspective makes them feel a bit unreliable, so I wouldn't recommend them for anything more than a quick demo.  
+
+GitHub Codespaces are a great idea, but you are probably better off hosting your service on a dedicated VM or locally using WSL2.
+
+## Core Features
+- **Automatic repo mounting**: Repo cloned to `/workspaces/<repo-name>` with live Git sync
+- **Devcontainer.json**: Configures tools, Docker, ports, extensions via `.devcontainer/` [docs.github](https://docs.github.com/en/codespaces/about-codespaces/codespaces-features)
+- **Port forwarding**: Auto-detects `localhost:PORT`, creates public URLs, opens browser [docs.github](https://docs.github.com/en/codespaces/developing-in-a-codespace/forwarding-ports-in-your-codespace)
+- **VS Code native**: Browser or desktop VS Code with full extension support
+- **Multi-VM sizes**: 2-core/8GB → 32-core/128GB, pay-per-use after free quota
+
+## Pricing (March 2026)
+| Plan | Core-hours/month | Storage | Notes |
+|------|------------------|---------|-------|
+| Free | 120 core-hours | 15 GB | ~30hr on 4-core machine |
+| Pro | Same + priority | Same | Faster queue |
+| Team/Ent | Unlimited | Unlimited | Org billing |
+
+## Workflow
+```
+Repo → Codespace → /workspaces/repo → VS Code → docker compose up → Ports tab → Public URLs
+```
+
 # nautobot codespace notes
 
-Create your own codespace using this repo - or fork the repo if you want to make changes.
+**Nautobot** is an open-source Network Source of Truth (NSoT) and automation platform, forked from NetBox. [networktocode](https://networktocode.com/nautobot/)
 
-After you start nautobot, we need to run `createsuperuser` from the vscode terminal to setup a Login and Password ( in the example we used admin / admin but feel free to use whatever you prefer )
+It serves three core functions:
+- **Source of Truth**: Models network infrastructure (devices, IPs, cables, racks) with custom fields/relationships
+- **Automation Platform**: REST/GraphQL APIs, Git integration, webhooks drive Ansible/Terraform workflows
+- **App Ecosystem**: Extensible plugin system for custom models, jobs, and integrations
+
+Key for network engineers: validates data, syncs disparate sources, enables intent-based networking, and supports multi-vendor device modeling with dynamic config generation.[](https://networktocode.com/nautobot/)[](https://docs.nautobot.com/projects/core/en/stable/)
+
+1. Create your own codespace using this repo - or fork the repo if you want to make changes.
+2. Codespaces allow you to test code for free, you get 
+3. The first time we start nautobot, we need to run `createsuperuser` from the vscode terminal to setup a Login and Password ( in the example we used admin / admin but feel free to use whatever you prefer )
 
 
 
