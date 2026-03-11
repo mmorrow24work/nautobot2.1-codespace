@@ -30,6 +30,10 @@ GitHub Codespaces are a great idea, but you are probably better off hosting your
 Repo → Codespace → /workspaces/repo → VS Code → docker compose up → Ports tab → Public URLs
 ```
 
+Nautobot
+[Zabbix](https://github.com/mmorrow24work/codespaces-examples/blob/80ecb4fdb8f4d9d52ad96f7ed07f04f6be861396/Zabbix.md) 
+
+
 # Nautobot 
 
 <img width="1100" height="237" alt="image" src="https://github.com/user-attachments/assets/834fddf4-383e-4f52-b119-b59a7cfa4f67" />
