@@ -27,7 +27,7 @@ GitHub Codespaces are a great idea, but you are probably better off hosting your
 Repo → Codespace → /workspaces/repo → VS Code → docker compose up → Ports tab → Public URLs
 ```
 
-# nautobot codespace notes
+# Nautobot 
 
 **Nautobot** is an open-source Network Source of Truth (NSoT) and automation platform, forked from NetBox. [networktocode](https://networktocode.com/nautobot/)
 
@@ -38,19 +38,16 @@ It serves three core functions:
 
 Key for network engineers: validates data, syncs disparate sources, enables intent-based networking, and supports multi-vendor device modeling with dynamic config generation.[](https://networktocode.com/nautobot/)[](https://docs.nautobot.com/projects/core/en/stable/)
 
+## Codespaces notes
+
 1. Create your own codespace using this repo - or fork the repo if you want to make changes.
-2. Codespaces allow you to test code for free, you get 
-3. The first time we start nautobot, we need to run `createsuperuser` from the vscode terminal to setup a Login and Password ( in the example we used admin / admin but feel free to use whatever you prefer )
-
-
+2. Codespaces allow you to test code for free, you get ~30hr on a 4-core machine.
+3. Create your new Codespaces instance using the options shown in the screenshot below ...
+4. The first time we start nautobot, we need to run `createsuperuser` from the vscode terminal to setup a Login and Password ( in the example we used admin / admin but feel free to use whatever you prefer )
+5. From the vscode terminal we can open the Web UI and login 
 
 <img width="654" height="396" alt="image" src="https://github.com/user-attachments/assets/27dd4bc7-cb8c-47a7-bf9e-880de9688986" />
-
 <img width="740" height="361" alt="image" src="https://github.com/user-attachments/assets/57a70101-c9fc-4afd-809b-6ad3ad20ea18" />
-
-<img width="2566" height="1398" alt="image" src="https://github.com/user-attachments/assets/9d259763-4896-40b0-a67e-b7116e47c78c" />
-
-<img width="856" height="435" alt="image" src="https://github.com/user-attachments/assets/a7dc3c5c-01ac-4f82-bd5e-061d3d971080" />
 
 
 ```bash
@@ -75,3 +72,7 @@ Password (again):
 Superuser created successfully.
 @user1 ➜ /workspaces/codespaces-examples (main) $
 ```
+<img width="856" height="435" alt="image" src="https://github.com/user-attachments/assets/a7dc3c5c-01ac-4f82-bd5e-061d3d971080" />
+<img width="2566" height="1398" alt="image" src="https://github.com/user-attachments/assets/9d259763-4896-40b0-a67e-b7116e47c78c" />
+
+
