@@ -26,5 +26,5 @@ Key for network engineers: Zabbix delivers agentless monitoring across entire in
 4. From the vscode terminal we can open the Zabbix web UI and login ( defaults Admin / zabbix ).
 5. Lastly we can rename the Codespaces instance, or delete it when we are done etc.
 
-https://private-user-images.githubusercontent.com/227459167/561751653-27dd4bc7-cb8c-47a7-bf9e-880de9688986.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NzMyNTU5NDEsIm5iZiI6MTc3MzI1NTY0MSwicGF0aCI6Ii8yMjc0NTkxNjcvNTYxNzUxNjUzLTI3ZGQ0YmM3LWNiOGMtNDdhNy1iZjllLTg4MGRlOTY4ODk4Ni5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjYwMzExJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI2MDMxMVQxOTAwNDFaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT0xYjJlYmIwOTRkMDc0NGM1ZjBlZDA2OGY2ZjI5Y2Y5OTllZGIzM2QxMmVlOGY0ZWI4MmRiMzhlZTBlYmVhMmUyJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.b-0JVcbYzD6GLAIJxrRSf_lEQfgyYSuT5YkVhODk8z4
+<img width="654" height="396" alt="image" src="https://github.com/user-attachments/assets/27dd4bc7-cb8c-47a7-bf9e-880de9688986" />
 <img width="730" height="348" alt="image" src="https://github.com/user-attachments/assets/7e4ee42b-e44f-4797-a266-17cab8bcc9e5" />
