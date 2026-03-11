@@ -44,7 +44,8 @@ Key for network engineers: validates data, syncs disparate sources, enables inte
 2. Codespaces allow you to test code for free, you get ~30hr on a 4-core machine.
 3. Create your new Codespaces instance using the options shown in the screenshot below ...
 4. The first time we start nautobot, we need to run `createsuperuser` from the vscode terminal to setup a Login and Password ( in the example we used admin / admin but feel free to use whatever you prefer )
-5. From the vscode terminal we can open the Web UI and login 
+5. From the vscode terminal we can open the Web UI and login
+6. Lastly we can rename the Codespaces instance, or delete it when we are done etc.
 
 <img width="654" height="396" alt="image" src="https://github.com/user-attachments/assets/27dd4bc7-cb8c-47a7-bf9e-880de9688986" />
 <img width="740" height="361" alt="image" src="https://github.com/user-attachments/assets/57a70101-c9fc-4afd-809b-6ad3ad20ea18" />
@@ -77,5 +78,6 @@ Superuser created successfully.
 
 <img width="559" height="496" alt="image" src="https://github.com/user-attachments/assets/853f4548-4c1e-46a9-83c3-701f72798804" />
 <img width="559" height="496" alt="image" src="https://github.com/user-attachments/assets/853f4548-4c1e-46a9-83c3-701f72798804" />
+<img width="437" height="253" alt="image" src="https://github.com/user-attachments/assets/c7e4fa3e-f3c8-4177-ad17-1c3652dfcf93" />
 
 
