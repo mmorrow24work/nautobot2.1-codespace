@@ -1,0 +1,21 @@
+{
+  "name": "Nautobot only",
+  "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+  "features": {
+    "ghcr.io/devcontainers/features/docker-in-docker:2": {},
+    "ghcr.io/devcontainers/features/python:1": {}
+  },
+
+  "privileged": true,
+  "forwardPorts": [8082],
+  "portsAttributes": {
+    "8000": {
+      "label": "Nautobot",
+      "onAutoForward": "openBrowserOnce",
+      "visibility": "public"
+    }
+  },
+  "postCreateCommand": "bash .devcontainer/nautobot-only/postCreate.sh",
+  "postStartCommand": "bash .devcontainer/nautobot-only/postStart.sh",
+  "remoteUser": "vscode"
+}
