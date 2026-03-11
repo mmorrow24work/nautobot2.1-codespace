@@ -11,7 +11,8 @@ echo "*** Start Zabbix stack ***************************************************
 docker network create --driver bridge digital-twin
 cp .devcontainer/Zabbix/* git/zabbix-docker/.
 cd git/zabbix-docker
-docker compose -f ./docker-compose_v3_alpine_mysql_snmptraps_latest.yaml -f ./docker-compose.override.yml up -f -d
+docker compose -f compose.yaml up -d
+# docker compose -f ./docker-compose_v3_alpine_mysql_snmptraps_latest.yaml -f ./docker-compose.override.yml up -f -d
 echo "*** Complete Zabbix stack ***********************************************************************************************************"
 
 # URLs (Codespaces auto-forwards)
